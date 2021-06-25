@@ -1,0 +1,70 @@
+{
+  "name": "react-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@arkecosystem/platform-sdk": "^0.9.415",
+    "@arkecosystem/platform-sdk-ark": "^0.9.415",
+    "@arkecosystem/platform-sdk-http-axios": "^0.9.415",
+    "@arkecosystem/platform-sdk-profiles": "^0.9.415",
+    "@arkecosystem/utils": "^1.2.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@reduxjs/toolkit": "^1.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "clsx": "^1.1.1",
+    "i18next": "^19.8.3",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-http-backend": "^1.0.21",
+    "loglevel": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.7.3",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-spinner-material": "^1.3.1",
+    "react-toastify": "^6.0.9",
+    "react-use-pagination": "^1.1.0",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "concurrently": "^5.3.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "jest-fetch-mock": "^3.0.3",
+    "postcss-cli": "^8.2.0",
+    "redux-mock-store": "^1.5.4",
+    "tailwindcss": "^1.9.6",
+    "tailwindcss-debug-screens": "^1.1.0"
+  }
+}
